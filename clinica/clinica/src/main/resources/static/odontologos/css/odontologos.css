@@ -1,0 +1,52 @@
+body { 
+    background-image: url('../../assets/background-odontologos.jpg');
+}
+
+.btn-left, .btn-center{
+    background-color: var(--rosa);
+}
+
+.btn-right{
+    background-color: var(--gris);
+    color: var(--claro)
+}
+
+.formularioAgregarOdontologo{
+    background-color: var(--rosa);
+    border-radius: 10px;
+}
+
+.listaActualizarOdontologo{
+    background-color: var(--gris);
+    color: var(--claro)
+}
+
+.displayShown{
+    display: bock;
+}
+
+/* Desarrollo Responsive */
+
+@media (max-width: 576px){
+
+    .table-striped{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .containerAgregarOdontologo{
+        width: 80%;
+        height: 70%;
+        position: relative;
+        bottom: 10%;
+        left:10%;
+    }
+    
+    .containerFormOdontologo, .containerAgregarOdontologo{
+        padding:0;
+        margin:0;
+        position:relative;
+
+    }
+}

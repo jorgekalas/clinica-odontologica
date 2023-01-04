@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --oscuro: #1c1c1f;
+    --claro: #f1f1f1;
+    --gris: #6c757d;
+    --amarillo: #fcf6bd;
+    --verde: #d0f4de;
+    --azul: #a9def9;
+    --rosa: #ff99c8;
+    --naranja: #ffd6a5;
+}
+
+
+h1, .table-striped, .card{
+    color: #F1F1F1;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    color: #F1F1F1;
+    background-color: var(--oscuro);
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
+.displayHidden{
+    display: none;
+}

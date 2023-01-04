@@ -1,0 +1,43 @@
+body {
+    background-image: url('../../assets/background-pacientes.jpg');
+}
+
+.btn-left, .btn-center{
+    background-color: var(--amarillo);
+}
+
+.btn-right{
+    background-color: var(--gris);
+    color: var(--claro)
+}
+
+.cardAgregarPaciente{
+    background-color: var(--amarillo);
+}
+
+.listaActualizarPaciente{
+    background-color: var(--gris);
+    color: var(--claro)
+}
+
+/* Desarrollo Responsive */
+
+@media (max-width: 576px){
+
+.table-striped{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerAgregarPaciente, .cardAgregarPaciente{
+    padding:0;
+    margin: 0;
+}
+
+.cardAgregarPaciente{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+}
